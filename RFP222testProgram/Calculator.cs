@@ -8,9 +8,10 @@ namespace RFP222testProgram
 {
     internal class Calculator
     {
-        public static int Addition(int a,int b)
+        public static void Addition(int a,int b)
         {
-            return a + b;  
+              int result = a + b;
+            Console.WriteLine("sum of two numbers is :"+result);
         }
     }
 }
