@@ -24,7 +24,12 @@ namespace RFP222testProgram
             Console.WriteLine("Please enter the second Number");
             int secondNumb = Convert.ToInt32(Console.ReadLine());
             Calculator.Addition(firstNumb, secondNumb);
+
+            Console.WriteLine("enter the number to find day of the week(between 0 to 9)");
+            int day=Convert.ToInt32(Console.ReadLine());
+            DayOfWeek.weekDay(day);
             Console.ReadLine();
+
 
         
         }
